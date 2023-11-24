@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="menuBg" prefHeight="640.0" prefWidth="360.0" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.MenuController">
+   <children>
+      <Text layoutX="117.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="오늘의 날씨">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Pane layoutX="40.0" layoutY="525.0" prefHeight="100.0" prefWidth="280.0">
+         <children>
+            <Button fx:id="changeBtn" layoutX="156.0" layoutY="31.0" mnemonicParsing="false" onAction="#changeScene" styleClass="btn" text="로그아웃">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="changeBtnA" layoutX="14.0" layoutY="31.0" mnemonicParsing="false" onAction="#changeSceneA" styleClass="btn" text="스타일 추천">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="20.0" layoutY="75.0" prefHeight="450.0" prefWidth="320.0" styleClass="container" stylesheets="@menu.css">
+         <children>
+            <Label fx:id="weatherSet" layoutX="10.0" layoutY="15.0" prefHeight="46.0" prefWidth="300.0" styleClass="weather" />
+            <Label fx:id="tempSet" layoutX="10.0" layoutY="90.0" prefHeight="46.0" prefWidth="300.0" styleClass="weather" />
+            <Label fx:id="maxTemSet" layoutX="10.0" layoutY="165.0" prefHeight="46.0" prefWidth="300.0" styleClass="weather" />
+            <Label fx:id="minTemSet" layoutX="10.0" layoutY="240.0" prefHeight="46.0" prefWidth="300.0" styleClass="weather" />
+            <Label fx:id="precipitationProbabilitySet" layoutX="10.0" layoutY="315.0" prefHeight="46.0" prefWidth="300.0" styleClass="weather" />
+            <Label fx:id="humiditySet" layoutX="10.0" layoutY="390.0" prefHeight="46.0" prefWidth="300.0" styleClass="weather" />
+         </children>
+      </Pane>
+      <Text layoutX="6.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(온도 = -999.0°C) = API에서 온도값을 찾을 수 없습니다.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

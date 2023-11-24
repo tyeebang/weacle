@@ -1,0 +1,32 @@
+#fashionBg {
+    -fx-background-image: url("BackGround.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.stylePane {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-radius: 20px;
+}
+
+.styleImg {
+    -fx-background-image: url("nayean.jpeg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.btn {
+    -fx-padding: 15px 30px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-background-color: #eeccd4;
+}
+.source {
+    -fx-padding: 10px 35px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-background-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,30 @@
+#mainViewBg {
+    -fx-background-image: url("BackGround.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.id-password {
+    -fx-padding: 15px 70px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-background-color: #c4f4fe;
+}
+
+.rog-btn {
+    -fx-padding: 15px 70px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-background-color: #eeccd4;
+}
+
+.exit-sign {
+    -fx-padding: 15px 40px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-background-color: #eeccd4;
+}

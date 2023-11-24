@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="fashionBg" prefHeight="640.0" prefWidth="360.0" stylesheets="@fashion.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.FashionController">
+   <children>
+      <Pane layoutX="28.0" layoutY="67.0" prefHeight="465.0" prefWidth="296.0" styleClass="stylePane">
+         <children>
+            <ImageView fitHeight="339.0" fitWidth="269.0" layoutX="14.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" styleClass="styleImg" />
+            <AnchorPane layoutX="30.0" layoutY="87.0" prefHeight="358.0" prefWidth="238.0" styleClass="styleImg" />
+            <Label layoutX="30.0" layoutY="26.0" styleClass="source" text="출처 : ~~~~~~~~~" />
+         </children>
+      </Pane>
+      <Button fx:id="changeBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#changeScene" prefHeight="30.0" prefWidth="110.0" styleClass="btn" text="돌아가기">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="39.0" layoutY="552.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="100.0" styleClass="btn" text="재추천">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="changeBtnA" layoutX="217.0" layoutY="552.0" mnemonicParsing="false" onAction="#changeSceneA" prefHeight="41.0" prefWidth="100.0" styleClass="btn" text="확인">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="180.0" layoutY="19.0" styleClass="source" text="코디 추천 결과" />
+   </children>
+</AnchorPane>

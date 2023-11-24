@@ -1,0 +1,26 @@
+#menuBg {
+    -fx-background-image: url("BackGround.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.container {
+    -fx-background-color: rgba(120, 120, 120, 0.5);
+    -fx-background-radius: 20px;
+}
+
+.btn {
+    -fx-padding: 15px 30px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-background-color: #eeccd4;
+}
+
+.weather {
+    -fx-padding: 15px 75px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-background-color: #c4f4fe;
+}
